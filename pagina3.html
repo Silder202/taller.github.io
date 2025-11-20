@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Actividades - Taller de Capacitación</title>
+    <!-- Incluye Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilo base para el cuerpo */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            padding: 20px;
+        }
+        /* Estilos específicos para la tabla */
+        .schedule-table th, .schedule-table td {
+            border: 1px solid #e5e7eb;
+            padding: 10px;
+            vertical-align: top;
+            text-align: left;
+        }
+        .schedule-table th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem; /* Pequeño como en el original */
+        }
+        /* Clase para destacar las filas de Práctica (rojo) */
+        .practica-row {
+            background-color: #fef2f2; /* Red-50 */
+            border-left: 4px solid #ef4444; /* Red-500 */
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="max-w-4xl mx-auto bg-white p-6 md:p-10 shadow-xl rounded-lg">
+
+        <!-- Bullet Point Inicial (se repite al final) -->
+        <ul class="list-disc ml-6 mb-4 text-sm text-gray-700">
+            <li>Chorizo bajo en grasa, producto cárnico bajo en grasas</li>
+        </ul>
+
+        <!-- Título del Taller -->
+        <p class="text-sm font-light text-gray-600 mb-6 border-b pb-4">
+            Taller de capacitación comunitario para la elaboración de productos alimenticios procesados, saludables y control de enfermedades crónico degenerativas en la localidad de San Pablo Chimalpa
+        </p>
+
+        <!-- CRONOGRAMA DE ACTIVIDADES -->
+        <div class="text-center mb-8">
+            <h2 class="text-xl font-bold tracking-wider text-gray-800 border-b-2 border-gray-800 inline-block pb-1">
+                CRONOGRAMA DE ACTIVIDADES
+            </h2>
+        </div>
+
+        <!-- TABLAS DEL CRONOGRAMA -->
+        
+        <!-- PRIMER DÍA -->
+        <h3 class="text-lg font-semibold text-gray-700 mt-6 mb-3">PRIMER DÍA</h3>
+        <p class="text-sm text-gray-500 mb-4">DÍA: 17 de noviembre</p>
+        
+        <div class="overflow-x-auto mb-8">
+            <table class="schedule-table w-full border-collapse">
+                <thead>
+                    <tr>
+                        <th class="w-1/12">DÍA</th>
+                        <th class="w-2/12">HORA</th>
+                        <th class="w-2/12">ACTIVIDAD</th>
+                        <th class="w-6/12">DESCRIPCIÓN</th>
+                        <th class="w-1/12">LUGAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="7" class="font-bold text-center align-middle bg-gray-50">17 de noviembre</td>
+                        <td>Por definir</td>
+                        <td class="font-semibold">INAUGURACIÓN</td>
+                        <td>Presentación del presídium y personas invitadas.</td>
+                        <td>Auditorio</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Presentación del taller. Introducción.</td>
+                        <td>Breve explicación sobre el taller, importancia sobre la alimentación saludable, para la prevención y control de enfermedades metabólicas.</td>
+                        <td>Auditorio</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Pausa activa. Explicación.</td>
+                        <td>Valor nutritivo de los alimentos.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Charla.</td>
+                        <td>Sobre los procesos de transformación y conservación de alimentos.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Plática informativa.</td>
+                        <td>Sobre los aspectos generales de la mermelada, detalles del procesamiento de la mermelada.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr class="practica-row">
+                        <td></td>
+                        <td><span class="text-red-600">Práctica.</span></td>
+                        <td>Elaboración de <span class="text-red-600">mermelada de frutas</span>.</td>
+                        <td>Planta piloto</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Cierre de la primera sesión.</td>
+                        <td>Agradecimiento a los participantes.</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- SEGUNDO DÍA -->
+        <h3 class="text-lg font-semibold text-gray-700 mt-6 mb-3">SEGUNDO DÍA</h3>
+        <p class="text-sm text-gray-500 mb-4">DÍA: 17 de noviembre</p>
+
+        <div class="overflow-x-auto mb-8">
+            <table class="schedule-table w-full border-collapse">
+                <thead>
+                    <tr>
+                        <th class="w-1/12">DÍA</th>
+                        <th class="w-2/12">HORA</th>
+                        <th class="w-2/12">ACTIVIDAD</th>
+                        <th class="w-6/12">DESCRIPCIÓN</th>
+                        <th class="w-1/12">LUGAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="6" class="font-bold text-center align-middle bg-gray-50">17 de noviembre</td>
+                        <td></td>
+                        <td>Retroalimentación</td>
+                        <td>Aspectos nutricionales de alimentos procesados.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Explicación</td>
+                        <td>Valor nutritivo de los alimentos y el uso de las TICs como herramienta para mejorar los hábitos alimenticios.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Explicación</td>
+                        <td>Metodología para la elaboración del yogurt.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr class="practica-row">
+                        <td></td>
+                        <td><span class="text-red-600">Práctica</span></td>
+                        <td><span class="text-red-600">Elaboración de yogurt.</span></td>
+                        <td>Planta piloto</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Plática</td>
+                        <td>Importancia nutrimental del yogurt.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Dinámica grupal</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- TERCER DÍA -->
+        <h3 class="text-lg font-semibold text-gray-700 mt-6 mb-3">TERCER DÍA</h3>
+        <p class="text-sm text-gray-500 mb-4">DÍA: 19 de noviembre</p>
+
+        <div class="overflow-x-auto mb-8">
+            <table class="schedule-table w-full border-collapse">
+                <thead>
+                    <tr>
+                        <th class="w-1/12">DÍA</th>
+                        <th class="w-2/12">HORA</th>
+                        <th class="w-2/12">ACTIVIDAD</th>
+                        <th class="w-6/12">DESCRIPCIÓN</th>
+                        <th class="w-1/12">LUGAR</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="6" class="font-bold text-center align-middle bg-gray-50">19 de noviembre</td>
+                        <td></td>
+                        <td>Plática</td>
+                        <td>metodologías de conservación, su aplicación para productos más complejos.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Explicación</td>
+                        <td>metodología para la elaboración del Chorizo bajo en grasa.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr class="practica-row">
+                        <td></td>
+                        <td><span class="text-red-600">Práctica</span></td>
+                        <td><span class="text-red-600">Elaboración de Chorizo bajo en grasa.</span></td>
+                        <td>Planta piloto</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Plática</td>
+                        <td>Importancia nutrimental del Chorizo bajo en grasa.</td>
+                        <td>Biblioteca</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Cierre y Clausura de Taller</td>
+                        <td></td>
+                        <td>Planta piloto</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Expo</td>
+                        <td>Alimentos nutritivos procesados</td>
+                        <td>Patio Planta piloto</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- TEXTO CONCLUSIVO -->
+        <div class="mt-10 pt-6 border-t border-gray-300">
+            <p class="text-sm text-gray-700 mb-4">
+                Este taller presenta una alternativa de productos conservados mediante procesos típicos de transformación, en los cuales se utilizará un lenguaje sencillo para que todo público tenga acceso a estas tecnologías.
+            </p>
+            <ul class="list-disc ml-6 text-sm text-gray-700 space-y-2">
+                <li>Mermelada sin azúcar con chía: alternativa saludable para acompañar panes y galletas.</li>
+                <li>Leche fermentada tipo yogur griego natural o con frutas locales: fuente de probióticos naturales que favorecen la salud intestinal.</li>
+                <li class="font-semibold">Chorizo bajo en grasa, producto cárnico bajo en grasas.</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>

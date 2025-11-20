@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 60px;
+}
+body{
+    background-image: url(fondo.webp);
+    background-size: cover;
+}
+p{
+     font-family: monospace;
+    font-size: 20px; 
+     
+}
+h2{
+        text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+.titulo-con-fondo {
+ background-image: url(titulo.webp); 
+    background-size: cover;      
+    background-position: center; 
+    padding: 20px 30px;         
+    color: rgb(0, 0, 0);               
+    border-radius: 12px;         
+    box-shadow: 0 4px 10px rgba(0,0,0,0.25); 
+    display: inline-block;       
+    font-weight: bold;
+}
+.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease-out;
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.links-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.links-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto 0 auto;      /* centrado */
+    display: flex;
+    justify-content: space-between; /* simétrico */
+    gap: 20px;
+}
+
+/* Botones con estilo */
+.link-boton {
+    flex: 1;                        /* todos del mismo tamaño */
+    text-align: center;
+    padding: 15px 0;
+    background-color: #dbdbdb;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-family: monospace;
+}
+
+.link-boton:hover {
+    background-color: #dddddd;
+}
